@@ -38,7 +38,7 @@
 .header{
     background-image: url('../image/developer.png'), url('../image/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: top left, bottom right;  /*eikhan tay bujhte chai*/
 }
 
 /* Nav Styles */
@@ -70,9 +70,19 @@ nav ul{
     justify-content: space-between;
     margin: 0 35px 0 200px;
 }
+.banner-content{
+    max-width: 580px;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 75px;
+}
 .banner-profile-pic{
-    width: 584px;
-    
+    width: 584px;    
 }
 /* About Styles */
 .about{
