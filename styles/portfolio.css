@@ -14,7 +14,7 @@
 }
 .section-description{
     font-size: 18px;
-    color: #757575;
+    color: #757575;    
 }
 .secondary-bg{
     background-color: #FFF8F3;
@@ -33,7 +33,9 @@
     padding: 18px 35px;
     border-radius: 5px;
 }
-
+.text-center{
+    text-align: center;
+}
 /* Header Styles */
 .header{
     background-image: url('../image/developer.png'), url('../image/header_bg.png');
@@ -82,8 +84,16 @@ nav ul{
     font-size: 75px;
 }
 .banner-profile-pic{
-    width: 584px;    
+    width: 584px;
+    height: 676px;    
 }
+
+/* Main Styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* About Styles */
 .about{
     border-radius: 10px;
@@ -96,4 +106,15 @@ nav ul{
 }
 .item-description{
     font-weight: 600;
+}
+
+/* skills section styles */
+.skills-container{
+    display: flex;
+    gap: 24px;    
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
 }
